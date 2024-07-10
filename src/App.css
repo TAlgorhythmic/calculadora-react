@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.calculadora-box {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 500px;
+  height: 600px;
+  background-image: linear-gradient(to top, #504434, #466695);
+}
+.comp {
+  border: 1px solid white;
+  font-size: 28px;
+}
+div.text-box {
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 100%;
+  min-width: 100%;
+  height: 25%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
+button.number {
+  background-color: transparent;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid white;
+  width: 25%;
+  height: 15%;
+  font-size: 32px;
+}
+button.zero {
+  background-color: transparent;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid white;
+  width: 50%;
+  height: 15%;
+  font-size: 32px;
+}
+button.header-button {
+  background-color: rgb(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 0px;
+  border: 1px solid white;
+  width: 25%;
+  height: 15%;
+  font-size: 32px;
+}
+button.operator {
+  background-color: darkgoldenrod;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid white;
+  width: 25%;
+  height: 15%;
+  font-size: 32px;
+}
+button:hover {
+  background-image: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3));
+  text-shadow: 2px 2px 6px white;
+}
